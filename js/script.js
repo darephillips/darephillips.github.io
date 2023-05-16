@@ -10,7 +10,7 @@ menu.onclick = () => {
 
 window.onscroll = () => {
     menu.classList.remove('bx-x');
-    navbar.classList.toggle('active');
+    navbar.classList.remove('active');
 };
 
 
